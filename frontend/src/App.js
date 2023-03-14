@@ -1,7 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Search from './components/Search';
+
 const App = () =>{
   return (
     <div>
-      <h1>hello dj congelateur2</h1>
+      <Header title= "DIGITAL ANIMAL PARK" />
+      <Search />
     </div>
   );
 }
